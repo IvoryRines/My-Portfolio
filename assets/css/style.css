@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #003366;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    font-size: 40px;
+    background-color: #CCE5FF;
+    color: #003366;
+}
+
+header nav {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+
+nav a {
+    color: #CCE5FF;
+    font-weight: bolder;
+}
+
+.beach {
+    height: 380px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Reid.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+
+    position: relative;
+    display: flex;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-left: 5%;
+    
+}
+
+p {
+    margin: 0% 2% 0% 4%;
+}
+
+.vl {
+    border-left: 2px solid #003366;
+    height: 90%;
+    position: absolute;
+    left: 14px
+
+}
+
+
+.about-me img {
+    width: 18%;
+    margin-bottom: 1%;
+}
+
+.work {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 7px 20px 20px;
+}
+
+.work > * {
+    flex 1 1 45%
+}
+
+
+.contact-me {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-me ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    list-style: none;
+    margin: 0% 2% 0% 4%;
+}
+
+.contact-me li {
+    display: inline-block;
+    color: #CCE5FF;
+    font-weight: bolder;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+

@@ -80,7 +80,7 @@ p {
 }
 
 .work > * {
-    flex 1 1 45%
+    flex: 1 1 45%;
 }
 
 
@@ -106,3 +106,14 @@ footer {
     justify-content: center;
 }
 
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}

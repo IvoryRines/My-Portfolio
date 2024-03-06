@@ -1,31 +1,20 @@
-
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
     background-color: #003366;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
 }
 
 header h1 {
     font-size: 40px;
-    background-color: #CCE5FF;
-    color: #003366;
+    color: white;
 }
 
 header nav {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-header ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    list-style: none;
 }
 
 nav a {
@@ -34,6 +23,13 @@ nav a {
 }
 nav a:hover{
     color: pink;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
 }
 
 .beach {
@@ -53,7 +49,7 @@ section h2 {
     flex-wrap: wrap;
     text-align: right;
     padding: 6px;
-    border-right: 3px solid #003366;
+    border-right: 2px solid #003366;
     flex: 0 0 110px;
     font-size: 30px;
     font-weight: normal;
@@ -77,41 +73,40 @@ p {
     width: 18%;
     margin: 15px 0px 15px 5px;}
 
+
 #work {
     display: flex;
     margin-left: 3px;
+    
 }
-.work img {
+
+.one-hundred-percent {
+    margin-top: 28px;
+}
+.one-hundred-percent img {
     width: 100%;
 }
 
-.y{
-    flex-basis: calc(50% - 1em);
-    background-size: 100%;
+.fifty-percent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.fifty-percent img {
+    width: 100%;
+}
+
+.y {
+    flex-basis: calc(50% - 10px);
     margin: 10px 0px 10px 10px;
 }
 
-.project-1{
-   width: 100%;
-}
-
-.project-2 {
-    min-height: 470px;
-    flex-basis: 100%; 
-}
-
-.project-3 {
-    
-}
-
-.project-4 {
-    
-}
 .contact-me {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 60px;
 }
-
 
 .contact-me a {
     text-decoration: none;
@@ -125,7 +120,6 @@ p {
     list-style: none;
     margin: 0% 2% 0% 4%;
 }
-
 
 .contact-me li {
     display: inline-block;

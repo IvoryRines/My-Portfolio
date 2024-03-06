@@ -85,8 +85,8 @@ p {
 }
 
 .y{
-    min-height: 176px;
-    max-height: 176px;
+    min-height: 518px;
+    max-height: 518px;
     flex-basis: calc(50% - 1em);
     background-size: 100%;
     margin: 10px 0px 10px 10px;
@@ -94,13 +94,12 @@ p {
 
 .project-1{
     background-image: url('../images/Horiseon-Refactor.jpg');
-   min-height: 400px;
    flex-basis: 100%;
 }
 
 .project-2 {
-    background-image: url('../images/Portfolio-screenshot.png');
-    min-height: 400px;
+    background-image: url('../images/Portfolio-screenshot.jpg');
+    min-height: 470px;
     flex-basis: 100%; 
 }
 
@@ -110,6 +109,35 @@ p {
 
 .project-4 {
     background-image: url('../images/Assignment-4.jpg');
+}
+.contact-me {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
+
+
+.contact-me a {
+    text-decoration: none;
+    color: #003366;
+}
+.contact-me ul {
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    min-width: 300px;
+    list-style: none;
+    margin: 0% 2% 0% 4%;
+}
+
+
+.contact-me li {
+    display: inline-block;
+    color: #CCE5FF;
+    font-weight: bolder;
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
 /* h2 {
     text-align: right;

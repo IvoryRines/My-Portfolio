@@ -77,38 +77,35 @@ p {
     width: 18%;
     margin: 15px 0px 15px 5px;}
 
-.work{
+#work {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px 0px 20px 5px;
+    margin-left: 3px;
+}
+.work img {
+    width: 100%;
 }
 
 .y{
-    min-height: 518px;
-    max-height: 518px;
     flex-basis: calc(50% - 1em);
     background-size: 100%;
     margin: 10px 0px 10px 10px;
 }
 
 .project-1{
-    background-image: url('../images/Horiseon-Refactor.jpg');
-   flex-basis: 100%;
+   width: 100%;
 }
 
 .project-2 {
-    background-image: url('../images/Portfolio-screenshot.jpg');
     min-height: 470px;
     flex-basis: 100%; 
 }
 
 .project-3 {
-    background-image: url('../images/Assignment-3.jpg');
+    
 }
 
 .project-4 {
-    background-image: url('../images/Assignment-4.jpg');
+    
 }
 .contact-me {
     font-family: Georgia, 'Times New Roman', Times, serif;

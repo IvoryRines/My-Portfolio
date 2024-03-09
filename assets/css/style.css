@@ -45,6 +45,7 @@ section {
     display: flex;
 }
 
+
 section h2 {
     flex-wrap: wrap;
     text-align: right;
@@ -179,8 +180,28 @@ footer {
     justify-content: center;
 } */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 900px) {
+section h2 {
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 0px 20px 0px 10px;
+    margin-left: 55px;
+    border-right: 2px solid #003366;
+    flex: 0 0 138px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: Georgia, serif;
+    color: #003366;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 4%;
+    background-color: #003366;
+    font-family: Georgia, serif;
+}
 }
 
 @media only screen and (max-width: 768px) {

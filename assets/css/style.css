@@ -21,9 +21,7 @@ nav a {
     color: #CCE5FF;
     font-weight: bolder;
 }
-nav a:hover{
-    color: pink;
-}
+
 
 header ul {
     display: flex;

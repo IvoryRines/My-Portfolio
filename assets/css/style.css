@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 1% 3%;
     background-color: #003366;
     font-family: Georgia, serif;
 }
@@ -131,55 +131,9 @@ p {
 footer {
     display: flex;
     justify-content: center;
-}
-/* h2 {
-    text-align: right;
-    margin-left: 5%;
-    
+    color: purple;
 }
 
-p {
-    margin: 0% 2% 0% 4%;
-}
-
-
-
-
-.work {
-    
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0px 7px 20px 20px;
-}
-
-.work h2 {
-    border-right: 3px solid black;
-}
-
-
-
-.contact-me {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.contact-me ul {
-    display: flex;
-    justify-content: space-around;
-    min-width: 300px;
-    list-style: none;
-    margin: 0% 2% 0% 4%;
-}
-
-.contact-me li {
-    display: inline-block;
-    color: #CCE5FF;
-    font-weight: bolder;
-}
-footer {
-    display: flex;
-    justify-content: center;
-} */
 
 @media only screen and (min-width: 900px) {
 section h2 {
@@ -245,17 +199,19 @@ header ul {
 }
 section {
     margin: 16px 0px;
+}
+
 section h2 {
-    padding-right: 8px;
+    padding: 0px 8px 0px 0px;
     margin: 0px 0px 0px 0px;
     border-right: 2px solid #003366;
     flex: 0 0 89px;
-    font-size: 20px;
+    font-size: 22px;
 }
-}
+
 p {
-    padding: 10px 0px 0px 10px;
-    margin: 16px 0px 0px 0px;
+    padding: 0px 0px 0px 12px;
+    margin: 2px 0px 0px 0px;
 }
 .about-me img {
     height: 46%;
@@ -266,11 +222,16 @@ p {
 #work {
     margin-left: 0px;
 }
+
+.contact-me ul{
+    justify-content: space-around;
+    align-items: center
+}
 }
 
 @media only screen and (max-width: 500px) {
 body{
-    margin: 0;
+    margin: 1%;
 }
     header {
     display:flex;
@@ -293,9 +254,40 @@ nav ul {
     width: 100%;
     margin-bottom: 0px;
 }
+
+section {
+    margin: 16px 0px;
+}
 section div {
-    flex: 0 0 70%;
+    flex: 0 0 75%;
+}
+
+section h2 {
+    flex: 0 1 73px;
+    font-size: 22px;
+}
+
+.about-me {
+    max-height: 200px;
+}
+
+.about-me img {
+    height: 45%;
+    width: 45%;
+    margin: 24px 6px 0px 32px;
+}
+
+.contact-me{
+    margin: 0px;
+}
+
+.contact-me ul {
+    flex-wrap: wrap;
+    min-width: 150px;
+    margin-top: 4px;
 }
 }
+
+
 
 
